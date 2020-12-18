@@ -11,14 +11,15 @@ import lombok.Data;
 @Entity
 @Table
 @Data
-public class Aluno {
+public class Projeto {
 	
 	@Id
 	@GeneratedValue
-	private Long id;
+	long id;
 	
-	private String nome;
-	private String curso;
-	private String cargo_projeto;
+	String nome;
+	String descricao;
 	
+	
+
 }
